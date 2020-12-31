@@ -2,9 +2,7 @@ send_dingding_alert_url = "xxx"
 level = "ERROR"
 head = ["xxx", "xxx", "... ..."]
 env = ["dev", "uat", "prod"]
-app = [
-    "xxx", "xxx", "... ..."
-]
+app = ["xxx", "xxx", "... ..."]
 elastic_user = "xxx"
 elastic_password = "xxx"
 elastic_ecs_ip = "xxx"
