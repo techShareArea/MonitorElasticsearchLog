@@ -36,7 +36,7 @@ cat >> /etc/crontab <<-EOF
 ```
 您的应用日志出现错误,请及时处理:
 app ==> xxx-xxx
-env ==> dev
+env ==> xxx
 level ==> ERROR
 logger_name ==> xxx
 @timestamp ==> 2020-11-11T03:19:38.576Z
