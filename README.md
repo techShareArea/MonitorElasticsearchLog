@@ -13,6 +13,7 @@ head-env-app-datetime
 所使用的数据库为python3自身所带的sqlite3数据库
 
 #### 部署
+ELK请自行搭建，这里不再赘述
 
 ##### 配置
 请自行根据自身情况，把config.py配置文件补充完善
@@ -26,6 +27,20 @@ pip3 install -r requirements.txt
 ```
 cat >> /etc/crontab <<-EOF
 5/* * * * * root /usr/bin/python3 xxxx(setup.py文件的絕對路徑)
+```
+
+##### 钉钉告警
+- 请自行配置钉钉告警机器人
+
+告警的相关信息如下
+```
+您的应用日志出现错误,请及时处理:
+app ==> xxx-xxx
+env ==> dev
+level ==> ERROR
+logger_name ==> xxx
+@timestamp ==> 2020-11-11T03:19:38.576Z
+message ==> xxx
 ```
 
 #### 结语
